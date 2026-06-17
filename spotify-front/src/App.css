@@ -1,0 +1,42 @@
+
+:root {
+ --color-bg:      #f4f7fb;
+ --color-surface: #ffffff;
+
+ --color-border: #d8e0ea;
+
+ --color-text:      #1f2933;
+ --color-text-soft: #52606d;
+
+ --color-principal:  #06b6d4;
+ --color-secundario: #0e7490;
+ --color-red:        #e11d48;
+
+ --color-tarjeta: #3b82f6;
+
+ --radius-lg: .75rem;
+ --radius-md: .5rem;
+ --radius-sm: .3rem;
+
+ --font-main:  "text", system-ui, sans-serif;
+ --font-title: "title", system-ui, sans-serif;
+ --font-logo:  "logo", cursive;
+}
+
+@font-face {
+    font-family: "logo";
+    src: url(/tipografia/PermanentMarkerRegular.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "title";
+    src: url(/tipografia/MontserratExtraBold.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "text";
+    src: url(/tipografia/MontserratMedium.woff2);
+    font-display: swap;
+}
